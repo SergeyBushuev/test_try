@@ -3,4 +3,4 @@ language: cpp
 compiler:
   - clang
   - gcc
-script: - make -C Build
+script: - make -C Build test_c.cpp
